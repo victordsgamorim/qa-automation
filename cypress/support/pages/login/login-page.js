@@ -5,6 +5,12 @@ class Login {
         cy.visitPage();
     }
 
+    loginAndLogout() {
+        cy.login();
+        cy.wait(500);
+        cy.logout();
+    }
+
     verifyErrorMessages(isVisible = true) {
         const visibility = isVisible ? 'be.visible' : 'not.exist';
         cy.contains(el.usernameRequiredMessage).should(visibility);

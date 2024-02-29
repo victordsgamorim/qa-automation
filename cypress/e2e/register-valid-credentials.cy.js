@@ -1,6 +1,6 @@
 import Register from '../support/pages/register/register-page.js'
 
-describe('Register', () => {
+describe('Register invalid credentials', () => {
 
   beforeEach(() => {
     Register.moveToRegisterPage();
