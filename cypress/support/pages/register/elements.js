@@ -7,6 +7,7 @@ export const ELEMENTS = {
     passwordField: "input[data-test=registerPassword]",
     availableUserMessage: "User available",
     notAvailableUserMessage: "Username already taken",
+    miniumPasswordLength: "Mininum length is 8",
     emailRequiredMessage: "Email is required!",
     nameRequiredMessage: "Full name is required!",
     userNameRequiredMessage: "User name is required!",
